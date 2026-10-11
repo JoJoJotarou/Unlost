@@ -1,0 +1,19 @@
+{
+  "name": "unlost",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "build": "rm -rf dist && mkdir -p dist && cd chrome && zip -r ../dist/unlost.zip . -x '*.DS_Store'",
+    "check": "ultracite check",
+    "fix": "ultracite fix",
+    "prepare": "lefthook install"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "2.5.15",
+    "@commitlint/cli": "21.2.3",
+    "@commitlint/config-conventional": "21.2.3",
+    "lefthook": "2.2.1",
+    "ultracite": "8.0.0"
+  },
+  "packageManager": "pnpm@10.10.0"
+}
