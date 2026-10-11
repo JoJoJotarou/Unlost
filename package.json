@@ -1,6 +1,6 @@
 {
   "name": "unlost",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "private": true,
   "scripts": {
     "build": "rm -rf dist && mkdir -p dist && cd chrome && zip -r ../dist/unlost.zip . -x '*.DS_Store'",
